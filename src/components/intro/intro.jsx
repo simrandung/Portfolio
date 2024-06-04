@@ -26,7 +26,7 @@ const Intro = () => {
 
                 I bring a comprehensive skill set in back-end technologies like Java, SQL, Node.js, and MongoDB, complemented by front-end expertise in HTML, CSS, JavaScript, and Bootstrap. Proficient in building scalable Java applications and managing databases with SQL, I excel in Node.js for high-performance server-side solutions. Leveraging MongoDB's NoSQL capabilities, I craft flexible database solutions. My front-end proficiency allows me to create dynamic, visually appealing interfaces. Previous intern experience fuels my commitment to innovation, ensuring high-quality software solutions. I merge back-end and front-end expertise for holistic development, prioritizing seamless integration and user-centric design in crafting innovative solutions
                 </div>
-                <a href="https://drive.google.com/file/d/1cEHnNiGK7FgYAegZlMfsqSkuGYEm2NoI/view?usp=sharing" download>
+                <a href="https://drive.google.com/file/d/1nM1BxrhJz-n7UR24JWkZCT5VSxkTG9JT/view?usp=sharing" download>
                     <button className="btn-view btn-c">View CV</button>
                 </a>
 
