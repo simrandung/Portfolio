@@ -1,0 +1,19 @@
+[
+    {
+        "role" : "Software Developer",
+        "organisation" : "Qualyval Consulting",
+        "startDate" : "Dec, 2022",
+        "endDate" : "Mar, 2023",
+        "experiences" : ["Collaborated with cross-functional teams, contributed to documentation, and ensured application reliability."],
+        "imageSrc" : "../../assests/logo.jpeg"
+
+    },
+    {
+        "role" : "RPA Developer",
+        "organisation" : "Qualyval Consulting",
+        "startDate" : "Sept, 2021",
+        "endDate" : "Dec, 2021",
+        "experiences" : ["Developed and implemented RPA solutions using UiPath, automating manual processes and optimizing operational efficiency."],
+        "imageSrc" : "../../assests/logo.jpeg"
+    }
+]

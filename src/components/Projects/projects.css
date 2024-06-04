@@ -1,0 +1,51 @@
+.p{
+    display: flex;
+    height: 75vh;
+    border-bottom: 2px dashed black;
+}
+
+/* projects.css */
+
+/* Add styles for the projects container */
+.p {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-wrap: wrap;
+    padding: 30px;
+  }
+  
+  /* Style for the card */
+  .card {
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    width: 60%;
+    /* border-top-left-radius: 8px;
+    border-top-right-radius: 8px; */
+    border-radius: 80px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 17%;
+    margin-top: 2%;
+  }
+  
+  .card .card-body {
+    padding: 20px;
+  }
+  
+  .card h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .card p {
+    font-size: 1em;
+    color: #666;
+  }
+  

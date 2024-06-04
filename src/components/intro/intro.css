@@ -1,0 +1,117 @@
+.i{
+    display: flex;
+    height: 90vh;
+    border-top: 2px dashed black;
+    /* border-bottom: 2px dashed black; */
+}
+
+.i-left {
+    flex: 1;
+    position: relative;
+}
+
+.i-right{
+    padding-top: 5%;
+    flex: 1;
+}
+
+.i-img{
+    width: 45%;
+    height: 50%;
+    margin-left: 18%;
+    margin-top: 18%;
+    border-radius: 10%;
+    position: absolute;
+    
+}
+
+.i-bg{
+    clip-path: polygon(0% 15%, 10% 10%, 15% 0%, 85% 0%, 91% 10%, 100% 15%, 100% 85%, 93% 85%, 85% 100%, 15% 100%, 11% 90%, 0% 85%);
+    background-color: rgb(32, 45, 84);
+    width: 60%;
+    height: 65%;
+    margin-left: 10%;
+    position: absolute;
+    margin-top: 13%;
+    
+    
+}
+
+.i-right-wrapper{
+    /* padding-top: 150px; */
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border:5px solid violet; */
+}
+
+.i-intro{
+    font-size: 30px;
+    font-weight: 300;
+    /* border:1px solid black; */
+    margin-top: 1%;
+
+}
+
+.i-name{
+    font-size: 60px;
+    margin-top: 1%;
+    /* border:1px solid black; */
+}
+
+.i-title{
+    height: 10%;
+    overflow: hidden;
+    margin-top: 2%;
+    /* border:5px solid blueviolet; */
+}
+
+.i-title-wrapper{
+    /* height: 100%; */
+    animation: move 10s ease-in-out infinite alternate;
+    /* margin-top: 25%; */
+    /* border:10px solid red; */
+}
+
+@keyframes move {
+    25%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY(-100px);
+    }
+    75%{
+        transform: translateY(-150px);
+    }
+    100%{
+        transform: translateY(-200px);
+    }
+}
+.i-title-item{
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(43, 70, 152);
+    display: flex;
+    align-items: center;
+}
+
+.i-desc{
+    margin-top: 1%;
+    font-size: 18px;
+}
+.btn-view {
+    /* margin-left: 5px; */
+    margin-top: 19px;
+    padding: 8px 16px;
+    background-color: rgb(32, 45, 84);
+    border: none;
+    color: beige;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn-c {
+    background-color: rgb(32, 45, 84);
+    font-size: 20px;
+}

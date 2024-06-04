@@ -1,0 +1,56 @@
+.s{
+    height: 70vh;
+    /* border-bottom: 2px dashed black; */
+    display: flex;
+}
+
+.s-left{
+    flex: 1;
+}
+.s-right{
+    flex: 1;
+    margin-top: 2%;
+    /* border-left: 5px dotted darkgray; */
+}
+
+.s-skills{
+    align-items: center;
+    /* border: 1px solid black; */
+    margin-left: 87%;
+    font-size: 25px;
+    font-weight: 100;
+    color: rgb(203, 10, 100);
+}
+.html{
+    border-radius: 30%;
+    margin-left: 2%;
+    height: 20%;
+    width:10%;
+    justify-content:space-between
+
+}
+.html1{
+    border-radius: 10%;
+    margin-left: 9%;
+    height: 10%;
+    width:10%;
+    margin-top: 1%;
+    justify-content:space-between
+}
+
+.python{
+    border-radius: 10%;
+    margin-left: 2%;
+    height: 30%;
+    width:10%;
+    justify-content:space-between;
+    padding-top: 50px;
+    
+}
+
+.star{
+    margin-top: -7.5%;
+    margin-left: 25%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}

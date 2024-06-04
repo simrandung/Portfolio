@@ -1,0 +1,141 @@
+.c{
+    display: flex;
+    height: 25vh;
+    /* border-bottom: 2px dashed black; */
+   background-color:rgb(32, 45, 84); 
+   
+}
+
+/* .c-left{
+    flex: 1;
+}
+.c-right{
+    flex: 1;
+} */
+
+ .cinfo{
+    background-color:rgb(32, 45, 84); 
+    color: beige;
+    font-size: 45px;
+    font-weight: bold;
+    align-items: center;
+    margin-left: 5%;
+    padding: 50px;
+}
+
+.cp{
+    background-color:rgb(32, 45, 84); 
+    color: beige;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    margin-left: -19%;
+    padding: 20px;
+    margin-top: 7%;
+
+}
+.contact-buttons {
+    display: flex;
+    gap: 50px;
+    background-color: rgb(32, 45, 84);
+    margin-left: 650px;
+    margin-top: 70px;
+    color: rgb(32, 45, 84);
+    width: 40px;
+    height: 20px;
+    
+}
+
+.contact-buttons a {
+    text-decoration: none;
+}
+.btn {
+    /* margin-left: 5px; */
+    padding: 8px 16px;
+    background-color: whitesmoke;
+    border: none;
+    color: beige;
+    cursor: pointer;
+    /* margin-top: 25px; */
+}
+
+.btn:hover {
+    background-color: white;
+    color: rgb(32, 45, 84);
+}
+.btn-linkedin {
+    background-color: rgb(32, 45, 84);
+    font-size: 20px;
+}
+
+.btn-github {
+    background-color: rgb(32, 45, 84);
+    font-size: 20px;
+}
+
+.btn-cv {
+    background-color: rgb(32, 45, 84);
+    font-size: 20px;
+}
+.copyright {
+    position: relative;
+    /* bottom: -150px; Adjust this value to change the vertical position */
+     left: -15%;
+    transform: translateX(-50%);
+    background-color: rgb(32, 45, 84);
+    text-align: center;
+    margin-top: 150px;
+}
+
+.copyright-p{
+    background-color:rgb(32, 45, 84); 
+    color: beige;
+    font-size: 15px;
+    font-weight: bold;
+    align-items: center;
+    /* margin-left: 150%;
+    padding: 20px;
+    margin-top: 7%; */
+}
+
+/*
+.links {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20%; */
+    /* width: 80px; */
+    /* background-color: rgb(32, 45, 84);
+    justify-content: space-between;
+   
+
+}
+
+.linkedin-logo {
+    width: 80px; Adjust size as needed */
+    /* margin-right: 5px;
+}
+.resume-button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: rgb(32, 45, 84);
+    border: 1px solid rgb(32, 45, 84);
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin-left: 5%;
+}
+
+.resume-button:hover {
+    background-color: rgb(32, 45, 84);
+    color: #fff;
+}
+.footer{
+    background-color:rgb(32, 45, 84); 
+    color: white;
+    margin-top: 10%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 19%;
+} */
