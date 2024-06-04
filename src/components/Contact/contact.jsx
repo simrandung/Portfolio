@@ -15,7 +15,7 @@ const Contact = () => {
                 <a href="https://github.com/simrandung?tab=repositories" target="_blank" rel="noopener noreferrer">
                     <button className="btn btn-github">GitHub</button>
                 </a>
-                <a href="https://drive.google.com/file/d/1cEHnNiGK7FgYAegZlMfsqSkuGYEm2NoI/view?usp=sharing" download>
+                <a href="https://drive.google.com/file/d/1nM1BxrhJz-n7UR24JWkZCT5VSxkTG9JT/view?usp=sharing" download>
                     <button className="btn btn-cv">Download CV</button>
                 </a>
             </div>
