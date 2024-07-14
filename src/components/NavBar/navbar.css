@@ -2,7 +2,7 @@
     height: 6rem;
     width: 100vw;
     max-width: 100rem;
-    margin : 0 auto;
+    margin: 0 auto;
     padding: 1rem 2rem;
     display: flex;
     align-items: center;
@@ -10,12 +10,19 @@
     position: sticky;
     top: 0;
     z-index: 3;
+    background-color: beige; /* Ensure navbar has a background */
 }
 
 .logo {
     object-fit: cover;
     height: 3rem;
     width: 4rem;
+}
+
+.desktopMenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .desktopMenuListItem {
@@ -26,19 +33,70 @@
     color: black;
 }
 
-.desktopMenuListItem:hover{
+.desktopMenuListItem:hover {
     color: rgb(54, 76, 141);
-    padding-bottom: 0.5rem;
-    border-bottom: 3px solid rgb(from blue 32 45 84);
+    padding-bottom: 0rem;
+    border-bottom: 3px solid rgb(32, 45, 84);
 }
 
 .desktopMenuBtn {
     background: rgb(32, 45, 84);
-    color: beige;
+    color: white;
     border: none;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 1rem 1rem 1rem 1rem;
     border-radius: 1rem;
+    cursor: pointer;
+}
+
+/* Hamburger Menu */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    margin-right: 2rem;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .desktopMenu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 6rem;
+        right: 0;
+        background-color: beige;
+        width: 100%;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        padding: 1rem 0;
+        z-index: 2;
+    }
+
+    .desktopMenu.open {
+        display: flex;
+    }
+
+    .desktopMenuListItem {
+        margin: 1rem 0;
+        font-size: 1.2rem;
+    }
+
+    .desktopMenuBtn {
+        margin: 1rem 0;
+    }
+
+    .hamburger {
+        display: flex;
+    }
 }

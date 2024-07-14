@@ -1,51 +1,53 @@
-.p{
-    display: flex;
-    height: 75vh;
-    border-bottom: 2px dashed black;
-}
-
 /* projects.css */
 
-/* Add styles for the projects container */
+/* Style for the projects container */
 .p {
-    display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
-    flex-wrap: wrap;
-    padding: 30px;
-  }
-  
-  /* Style for the card */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center items horizontally */
+  align-items: flex-start; /* Align items at the top */
+  padding: 30px;
+}
+
+/* Style for the card */
+.card {
+  width: 300px; /* Adjust width for smaller screens */
+  max-width: 90%; /* Limit maximum width */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Add a slight hover effect */
+}
+
+.card img {
+  width: 100%; /* Make image responsive */
+  border-radius: 8px 8px 0 0; /* Rounded corners on top */
+}
+
+.card .card-body {
+  padding: 20px;
+}
+
+.card h2 {
+  font-size: 1.3em; /* Decrease font size */
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1em;
+  color: #666;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
   .card {
-    width: 400px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    margin: 30px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 400px; /* Adjust width for larger screens */
+      max-width: 100%; /* Limit maximum width */
   }
-  
-  .card img {
-    width: 60%;
-    /* border-top-left-radius: 8px;
-    border-top-right-radius: 8px; */
-    border-radius: 80px;
-    align-items: center;
-    justify-content: center;
-    margin-left: 17%;
-    margin-top: 2%;
-  }
-  
-  .card .card-body {
-    padding: 20px;
-  }
-  
-  .card h2 {
-    font-size: 1.5em;
-    margin-bottom: 20px;
-  }
-  
-  .card p {
-    font-size: 1em;
-    color: #666;
-  }
-  
+}

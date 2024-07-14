@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.65b724f9.css",
+    "main.js": "/static/js/main.5323e5b0.js",
+    "static/media/mongodb.png": "/static/media/mongodb.9fb9b3d1d58ca685ddc2.png",
+    "static/media/java.png": "/static/media/java.52202c65c5097f221f75.png",
+    "static/media/react.png": "/static/media/react.0e56350af88eddb7ba18.png",
+    "static/media/github.png": "/static/media/github.6c129b5431654557c46d.png",
+    "static/media/bootstrap.png": "/static/media/bootstrap.242d917c1c11cdf00e63.png",
+    "static/media/profile photo.jpg": "/static/media/profile photo.679f77df7295751f179f.jpg",
+    "static/media/python.png": "/static/media/python.449a712450fc92a8810d.png",
+    "static/media/html.png": "/static/media/html.cfc135efacae16e66f44.png",
+    "static/media/javascript.png": "/static/media/javascript.83adc38becfefc43b681.png",
+    "static/media/css.png": "/static/media/css.5487776c26caddf3f316.png",
+    "static/media/nodejs.png": "/static/media/nodejs.51ace5da3fa19bc3c831.png",
+    "static/media/express.png": "/static/media/express.667d92fdc12dd145a38b.png",
+    "static/media/job.jpeg": "/static/media/job.384f04efd31f9d17f9a2.jpeg",
+    "static/media/cms java.jpeg": "/static/media/cms java.a08d222dd23162261a49.jpeg",
+    "index.html": "/index.html",
+    "main.65b724f9.css.map": "/static/css/main.65b724f9.css.map",
+    "main.5323e5b0.js.map": "/static/js/main.5323e5b0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.65b724f9.css",
+    "static/js/main.5323e5b0.js"
+  ]
+}

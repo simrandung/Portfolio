@@ -1,8 +1,8 @@
-.i{
+.i {
     display: flex;
+    flex-direction: row;
     height: 90vh;
     border-top: 2px dashed black;
-    /* border-bottom: 2px dashed black; */
 }
 
 .i-left {
@@ -10,22 +10,24 @@
     position: relative;
 }
 
-.i-right{
+.i-right {
     padding-top: 5%;
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.i-img{
+.i-img {
     width: 45%;
     height: 50%;
     margin-left: 18%;
     margin-top: 18%;
     border-radius: 10%;
     position: absolute;
-    
 }
 
-.i-bg{
+.i-bg {
     clip-path: polygon(0% 15%, 10% 10%, 15% 0%, 85% 0%, 91% 10%, 100% 15%, 100% 85%, 93% 85%, 85% 100%, 15% 100%, 11% 90%, 0% 85%);
     background-color: rgb(32, 45, 84);
     width: 60%;
@@ -33,62 +35,60 @@
     margin-left: 10%;
     position: absolute;
     margin-top: 13%;
-    
-    
 }
 
-.i-right-wrapper{
-    /* padding-top: 150px; */
+.i-right-wrapper {
     height: 25%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* border:5px solid violet; */
 }
 
-.i-intro{
+.i-intro {
     font-size: 30px;
     font-weight: 300;
-    /* border:1px solid black; */
     margin-top: 1%;
-
 }
 
-.i-name{
+.i-name {
     font-size: 60px;
     margin-top: 1%;
-    /* border:1px solid black; */
 }
 
-.i-title{
-    height: 10%;
+.i-title {
+    height: 50px;
     overflow: hidden;
     margin-top: 2%;
-    /* border:5px solid blueviolet; */
 }
 
-.i-title-wrapper{
-    /* height: 100%; */
-    animation: move 10s ease-in-out infinite alternate;
-    /* margin-top: 25%; */
-    /* border:10px solid red; */
+.i-title-wrapper {
+    display: flex;
+    flex-direction: column;
+    animation: move 20s linear infinite;
 }
 
 @keyframes move {
-    25%{
+    0% {
+        transform: translateY(0);
+    }
+    20% {
         transform: translateY(-50px);
     }
-    50%{
+    40% {
         transform: translateY(-100px);
     }
-    75%{
+    60% {
         transform: translateY(-150px);
     }
-    100%{
+    80% {
         transform: translateY(-200px);
     }
+    100% {
+        transform: translateY(-250px);
+    }
 }
-.i-title-item{
+
+.i-title-item {
     height: 50px;
     font-size: 30px;
     font-weight: bold;
@@ -97,12 +97,12 @@
     align-items: center;
 }
 
-.i-desc{
+.i-desc {
     margin-top: 1%;
     font-size: 18px;
 }
+
 .btn-view {
-    /* margin-left: 5px; */
     margin-top: 19px;
     padding: 8px 16px;
     background-color: rgb(32, 45, 84);
@@ -111,7 +111,111 @@
     border-radius: 20px;
     cursor: pointer;
 }
+
 .btn-c {
     background-color: rgb(32, 45, 84);
     font-size: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .i {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .i-left,
+    .i-right {
+        flex: none;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .i-img {
+        width: 40%;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 20px;
+        position: static;
+    }
+
+    .i-bg {
+        width: 60%;
+        height: 60%;
+        margin: 0 auto;
+        margin-top: 20px;
+        position: static;
+    }
+
+    .i-intro {
+        font-size: 24px;
+    }
+
+    .i-name {
+        font-size: 40px;
+    }
+
+    .i-title {
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .i-title-wrapper {
+        animation: move-mobile 10s linear infinite;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @keyframes move-mobile {
+        0% {
+            transform: translateY(0);
+        }
+        14.2857% {
+            transform: translateY(0);
+        }
+        28.5714% {
+            transform: translateY(-50px);
+        }
+        42.8571% {
+            transform: translateY(-100px);
+        }
+        57.1429% {
+            transform: translateY(-150px);
+        }
+        71.4286% {
+            transform: translateY(-200px);
+        }
+        85.7143% {
+            transform: translateY(-250px);
+        }
+        100% {
+            transform: translateY(-300px);
+        }
+    }
+
+    .i-title-item {
+        font-size: 24px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .i-desc {
+        font-size: 16px;
+        margin-top: 10px;
+        padding: 0 10px;
+    }
+
+    .btn-view {
+        font-size: 18px;
+        padding: 10px 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 }

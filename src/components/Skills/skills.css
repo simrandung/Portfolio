@@ -1,56 +1,54 @@
-.s{
-    height: 70vh;
-    /* border-bottom: 2px dashed black; */
+/* skills.css */
+
+.s {
     display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    padding: 30px;
 }
 
-.s-left{
-    flex: 1;
-}
-.s-right{
-    flex: 1;
-    margin-top: 2%;
-    /* border-left: 5px dotted darkgray; */
+.s-left,
+.s-right {
+    width: 100%;
+    max-width: 600px; /* Limit maximum width */
+    text-align: center;
+    padding-left: 5rem;
 }
 
-.s-skills{
-    align-items: center;
-    /* border: 1px solid black; */
-    margin-left: 87%;
+.s-skills {
     font-size: 25px;
     font-weight: 100;
-    color: rgb(203, 10, 100);
-}
-.html{
-    border-radius: 30%;
-    margin-left: 2%;
-    height: 20%;
-    width:10%;
-    justify-content:space-between
-
-}
-.html1{
-    border-radius: 10%;
-    margin-left: 9%;
-    height: 10%;
-    width:10%;
-    margin-top: 1%;
-    justify-content:space-between
+    color: rgb(32, 45, 84);
+    margin-bottom: 20px; /* Add some space below */
 }
 
-.python{
-    border-radius: 10%;
-    margin-left: 2%;
-    height: 30%;
-    width:10%;
-    justify-content:space-between;
-    padding-top: 50px;
-    
+.html1 {
+    width: 80px; /* Adjust image width */
+    height: 80px; /* Adjust image height */
+    margin-bottom: 10px; /* Add spacing between items */
 }
 
-.star{
-    margin-top: -7.5%;
-    margin-left: 25%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 25px;
+.star {
+    font-size: 16px; /* Decrease font size for better readability */
+    margin-top: 5px; /* Adjust margin for spacing */
+}
+
+/* Dotted line for desktop */
+@media (min-width: 768px) {
+    .s {
+        flex-direction: row; /* Align items horizontally */
+        height: auto; /* Reset height */
+    }
+
+    .s-left,
+    .s-right {
+        width: 50%; /* Half width for each side */
+        max-width: none; /* Remove max-width for desktop view */
+        text-align: left; /* Align text to the left */
+    }
+
+    .s-left {
+        border-right: 2px dashed #ccc; /* Dotted line on the right for separation */
+        padding-right: 20px; /* Add some padding on the right of left column */
+    }
 }
